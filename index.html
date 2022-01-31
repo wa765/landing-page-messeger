@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <!-- Google fonts Poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+        <title>Landing Page</title>
+        <!-- Link Scss -->
+        <link rel="stylesheet" href="./scss/main.css" />
+        <!-- Owl -->
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+        <!-- Swiper -->
+    </head>
+    <body class="bg-left">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="./assets/logo.png"
+                        alt="logo"
+                        class="logo-header"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            >How it works ?</a
+                        >
+                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#">Partnerships</a>
+                        <a class="nav-link" href="#">Community</a>
+                        <a class="nav-link" href="#">Support</a>
+                    </div>
+                    <!-- Button -->
+                    <div class="ms-auto">
+                        <button type="button" class="btn btn-primary">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <!-- Section 1 -->
+        <div class="container bg-left mt-5">
+            <div
+                class="row mt-5 sm-mt-3 md-mt-5 lg-mt-5 xl-mt-5 xxl-mt-5 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+            >
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt-5 sm-mt-3 md-mt-5 lg-mt-5 xl-mt-5 xxl-mt-5"
+                >
+                    <div class="main-konten1 col-12">
+                        <div
+                            class="heading-stroke-1 col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9"
+                        >
+                            <h1 class="">
+                                The best <span>way to connect</span> with your
+                                family and friends.
+                            </h1>
+                        </div>
+                        <p class="mt-3">
+                            Start chat with friends, meet new people and get
+                            interesting feature <br />
+                            via Japri Messenger now
+                        </p>
+                        <!--Button -->
+                        <div
+                            class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-start-xl justify-content-start-xxl mt-3"
+                        >
+                            <div class="d-flex">
+                                <button type="button" class="btn btn-primary">
+                                    Get Started
+                                    <img src="./assets/arrows.svg" class="" />
+                                </button>
+                            </div>
+                            <div class="d-flex">
+                                <button
+                                    type="button"
+                                    class="btn btn-link text-decoration-none videos fw-bold"
+                                >
+                                    <img
+                                        src="./assets/watch.svg"
+                                        class="me-3"
+                                    />Watch Videos
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <div class="responsif-img"></div>
+                            <!-- Button When Responsif -->
+                            <div
+                                class="when-responsif-button text-center mt-5 sm-mt-5 md-mt-3 md-lg-0 md-xl-0 md-xxl-0"
+                            >
+                                <img
+                                    src="./assets/stroke-responsif-button.svg"
+                                    class="stroke-button"
+                                />
+                                <button class="btn btn-primary">
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Ratings -->
+                        <div class="justify-content-center">
+                            <div
+                                class="caption text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+                            >
+                                <div
+                                    class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row col-12"
+                                >
+                                    <div class="heading mt-5">
+                                        <h6
+                                            class="fw-bold justify-content-center"
+                                        >
+                                            Trusted by over 50k users worldwide
+                                            since 2021
+                                        </h6>
+                                    </div>
+                                    <!-- Ratings -->
+                                    <div
+                                        class="d-flex col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 justify-content-evenly mt-3 m-auto"
+                                    >
+                                        <div
+                                            class="ratings justify-content-center text-center p-3"
+                                        >
+                                            <h5 class="title fw-bold">4.0</h5>
+                                            <!-- Icon Star -->
+                                            <div class="icon-star d-flex">
+                                                <img src="./assets/star.svg" />
+                                                <img src="./assets/star.svg" />
+                                                <img src="./assets/star.svg" />
+                                                <img src="./assets/star.svg" />
+                                                <img src="./assets/star.svg" />
+                                            </div>
+                                            <!-- Description -->
+                                            <p>Ratings</p>
+                                        </div>
+                                        <!-- Active Users -->
+                                        <div
+                                            class="active-users justify-content-center text-center p-3"
+                                        >
+                                            <h5 class="title fw-bold">1M+</h5>
+                                            <!-- Description -->
+                                            <div class="">
+                                                <p>Active Users</p>
+                                            </div>
+                                        </div>
+                                        <!-- Good Testimonials -->
+                                        <div
+                                            class="good-testimonials justify-content-center text-center p-3"
+                                        >
+                                            <h5 class="title fw-bold">100+</h5>
+                                            <div class="">
+                                                <p>Good Testimonials</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+        
+       
+        <!-- Section Companies -->
+        <section id="companies">
+            <div class="swiper swiperCompanies">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img
+                            src="img/traveloka.png"
+                            alt="companies logo"
+                            class="slide-traveloka"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="img/virtual-moves.png"
+                            alt="companies logo"
+                            class="slide-virtual"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="img/google.png"
+                            alt="companies logo"
+                            class="slide-goole"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="img/meta.png"
+                            alt="companies logo"
+                            class="slide-meta"
+                        />
+                    </div>
+                </div>
+            </div>
+            <h4>and more than 100+ other companies</h4>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2>Best <span>Features</span> to start chat</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
+                        </p>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="p-relative">
+                            <div class="swiper featureSlider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="content-card__slide active">
+                                            <img
+                                                src="img/bg-active.png"
+                                                alt="active"
+                                                class="bg-active"
+                                            />
+                                            <div class="icon-card__slide">
+                                                <img
+                                                    src="img/icon-heart.svg"
+                                                    alt="icon card"
+                                                />
+                                            </div>
+                                            <h3>Easy use</h3>
+                                            <p>
+                                                Clean and simple layout so it’s
+                                                easy to use, even for users with
+                                                little experience
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-card__slide">
+                                            <img
+                                                src="img/bg-active.png"
+                                                alt="active"
+                                                class="bg-active"
+                                            />
+                                            <div class="icon-card__slide">
+                                                <img
+                                                    src="img/icon-life.svg"
+                                                    alt="icon card"
+                                                />
+                                            </div>
+                                            <h3>Easy life</h3>
+                                            <p>
+                                                A chat app that supports
+                                                features like easy life,
+                                                allowing users to make easier
+                                                choices
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-card__slide">
+                                            <img
+                                                src="img/bg-active.png"
+                                                alt="active"
+                                                class="bg-active"
+                                            />
+                                            <div class="icon-card__slide">
+                                                <img
+                                                    src="img/icon-chat.svg"
+                                                    alt="icon card"
+                                                />
+                                            </div>
+                                            <h3>Easy chat</h3>
+                                            <p>
+                                                Start chat with friends, meet
+                                                new people via Japri Messenger
+                                                now
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-card__slide">
+                                            <img
+                                                src="img/bg-active.png"
+                                                alt="active"
+                                                class="bg-active"
+                                            />
+                                            <div class="icon-card__slide">
+                                                <img
+                                                    src="img/icon-life.svg"
+                                                    alt="icon card"
+                                                />
+                                            </div>
+                                            <h3>Easy life</h3>
+                                            <p>
+                                                A chat app that supports
+                                                features like easy life,
+                                                allowing users to make easier
+                                                choices
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-button-next features-next features-nav d-none d-lg-block"
+                            >
+                                <img
+                                    src="img/arrow-slide.svg"
+                                    alt="arrow-slide"
+                                />
+                            </div>
+                            <div
+                                class="swiper-button-prev features-prev features-nav d-none d-lg-block"
+                            >
+                                <img
+                                    src="img/arrow-slide.svg"
+                                    alt="arrow-slide"
+                                />
+                            </div>
+                            <div class="swiper-scrollbar d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 4 -->
+        <section id="4">
+            <div class="container mt-5">
+                <div class="row">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 justify-content-center d-flex align-items-center"
+                    >
+                        <img
+                            src="./assets/hero-4.png"
+                            alt="hero-4"
+                            class="hero-4"
+                        />
+                    </div>
+                    <!--  -->
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+                    >
+                        <div class="">
+                            <h1
+                                class="heading-stroke2 mb-2 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+                            >
+                                Japri <span>Messenger</span>
+                            </h1>
+                            <p
+                                class="mb-3 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+                            >
+                                Place to chat with friends, meet new people
+                                <br />
+                                via Japri Messanger
+                            </p>
+                            <!--  -->
+                            <div class="d-flex">
+                                <img
+                                    src="./assets/hero-4.png"
+                                    class="when-responsif-hero-4 m-auto"
+                                />
+                            </div>
+                            <!-- 1 -->
+                            <div
+                                class="alert p-4 disabled"
+                                role="alert"
+                                style="background: #f3f3fc"
+                            >
+                                <h5 class="fw-bold title-alert">My Chat</h5>
+                                <p class="title-alert">
+                                    Place to chat with friends from stored
+                                    numbers, via Japri Messenger
+                                </p>
+                            </div>
+                            <!-- 2 -->
+                            <div
+                                class="alert p-4 disabled"
+                                role="alert"
+                                style="background-color: #f3f3fc"
+                            >
+                                <h5 class="fw-bold title-alert">My Chat</h5>
+                                <p class="title-alert">
+                                    Place to chat with friends from stored
+                                    numbers, via Japri Messenger
+                                </p>
+                            </div>
+                            <!-- 3 -->
+                            <div
+                                class="alert p-4 disabled"
+                                role="alert"
+                                style="background-color: #f3f3fc"
+                            >
+                                <h5 class="fw-bold title-alert">My Chat</h5>
+                                <p class="title-alert">
+                                    Place to chat with friends from stored
+                                    numbers, via Japri Messenger
+                                </p>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 5 -->
+        <section id="">
+            <div class="container mt-5">
+                <div class="row">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+                    >
+                        <div class="">
+                            <h1
+                                class="mb-2 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+                            >
+                                <span class="heading-stroke3">Japri Pay</span>
+                            </h1>
+                            <p
+                                class="mb-3 text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"
+                            >
+                                A chat application that supports an easy life
+                                and at the same time makes payments with those
+                                closest to you
+                            </p>
+                            <!-- Image when responsif -->
+                            <div class="d-flex">
+                                <img
+                                    src="./assets/hero-5-responsif.png"
+                                    class="when-responsif-hero-5 m-auto"
+                                />
+                            </div>
+                        </div>
+                        <!-- Accordion -->
+                        <div class="accordion mt-4" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button shadow-none"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                    >
+                                        <b>Send Deposit</b>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseOne"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. At nibh ac morbi purus
+                                        neque nunc vitae at viverra. Volutpat
+                                        tincidunt lacus tempus, maecenas.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button
+                                        class="accordion-button collapsed shadow-none"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        <b
+                                            >PPOB (Payment Point Online
+                                            Banking)</b
+                                        >
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. At nibh ac morbi purus
+                                        neque nunc vitae at viverra. Volutpat
+                                        tincidunt lacus tempus, maecenas.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed shadow-none"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        <b>Payment Gateways</b>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. At nibh ac morbi purus
+                                        neque nunc vitae at viverra. Volutpat
+                                        tincidunt lacus tempus, maecenas.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Accordion -->
+                    </div>
+                    <!-- Image Hero 5 -->
+                    <div
+                        class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6 col-xxl-6"
+                    >
+                        <img src="./assets/hero-5.png" class="hero-5" />
+                    </div>
+                    <!-- End Image -->
+                </div>
+            </div>
+        </section>
+        <!-- End Section 5 -->
+        <!-- Section 6 -->
+        <section>
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div
+                        class="col-10 col-sm-8 col-md-7 col-lg-5 col-xl-5 col-xxl-5 section-5"
+                    >
+                        <img
+                            src="./assets/section5.png"
+                            alt="section-5"
+                            class="img-fluid section-5-img"
+                        />
+                    </div>
+                    <!-- Card Slider -->
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7"
+                    >
+                        <div
+                            id="carouselExampleControls"
+                            class="carousel slide"
+                            data-bs-ride="carousel"
+                        >
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img
+                                        src="./assets/card-slider1.png"
+                                        alt=""
+                                        class="card-slider w-100 h-100"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="./assets/card-slider1.png"
+                                        alt=""
+                                        class="card-slider w-100 h-100"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="./assets/card-slider1.png"
+                                        alt=""
+                                        class="card-slider w-100 h-100"
+                                    />
+                                </div>
+                            </div>
+                            <!--  -->
+                            <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleControls"
+                                data-bs-slide="prev"
+                            >
+                                <span
+                                    class="carousel-control-prev-icon"
+                                    aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleControls"
+                                data-bs-slide="next"
+                            >
+                                <span
+                                    class="carousel-control-next-icon"
+                                    aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- Icon -->
+                        <!-- <div class="container">
+              <a href="" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <img src="./assets/icon-slider-5.svg">
+              </a>
+            </div> -->
+                        <!-- End Icon -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section 6 -->
+        <!--  -->
+
+        <!-- Site footer -->
+        <footer class="site-footer p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-4">
+                        <img
+                            src="./assets/logo-footer.svg"
+                            style="width: 60%"
+                        />
+                        <p class="text-justify text-footer mt-3">
+                            A chat app that supports features such as easy life
+                            and fun play, which allow users to make easier
+                            choices
+                        </p>
+                    </div>
+
+                    <div class="col-xs-2 col-md-2">
+                        <h6 class="fw-bold">How it Works</h6>
+                        <ul class="footer-links">
+                            <li class="mt-3"><a href="#"> Chatting </a></li>
+                            <li class="mt-2"><a href="#"> Calling </a></li>
+                            <li class="mt-2">
+                                <a href="#"> Easy Life </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-2 col-md-2">
+                        <h6 class="fw-bold">Products</h6>
+                        <ul class="footer-links">
+                            <li class="mt-3">
+                                <a href="#"> Japri Messenger </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> Japri Pay </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-2 col-md-2">
+                        <h6 class="fw-bold">Partnerships</h6>
+                        <ul class="footer-links">
+                            <li class="mt-3"><a href="#"> Our Partners </a></li>
+                            <li class="mt-2">
+                                <a href="#"> Become a Partner </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-2 col-md-2">
+                        <h6 class="fw-bold">Community</h6>
+                        <ul class="footer-links">
+                            <li class="mt-3"><a href="#"> Partners </a></li>
+                            <li class="mt-2">
+                                <a href="#"> Suggestions </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> Blog </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> News Letter </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> FAQ </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> Help </a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="#"> Service Center </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                </div>
+                <hr />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">
+                            © 2021 Japri Messenger | All Right Reserved
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li>
+                                <a class="facebook" href="#">
+                                    <img src="./assets/instagram.svg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#">
+                                    <img src="./assets/fb.svg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dribbble" href="#">
+                                    <img src="./assets/twitter.svg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="#">
+                                    <img src="./assets/linkedin.svg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--  -->
+
+        <script src="./js/swiper.js"></script>
+        <script type="module">
+            import Swiper from "https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js";
+
+            const swiper = new Swiper();
+        </script>
+        <!-- Owl -->
+        <script src="./dist/owl.carousel.js"></script>
+        <script src="./js/owl.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <!-- End Section 1 -->
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(".content-card__slide").click(function () {
+                    $(".content-card__slide").removeClass("active");
+                    $(this).addClass("active");
+                });
+
+                let swiper = new Swiper(".swiperCompanies", {
+                    slidesPerView: "2",
+                    centeredSlides: true,
+                    spaceBetween: 30,
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 4,
+                            spaceBetween: 20,
+                            centeredSlides: false,
+                        },
+                    },
+                });
+
+                let swiperFeature = new Swiper(".featureSlider", {
+                    slidesPerView: "auto",
+                    spaceBetween: 30,
+                    scrollbar: {
+                        el: ".swiper-scrollbar",
+                        hide: false,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                            slidesPerGroup: 1,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                            slidesPerGroup: 1,
+                        },
+                    },
+                });
+            });
+        </script>
+    </body>
+</html>
